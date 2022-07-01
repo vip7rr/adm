@@ -6,7 +6,7 @@ SCPidioma="${SCPdir}/idioma"
 SCPusr="${SCPdir}/ger-user"
 SCPfrm="/etc/ger-frm"
 SCPinst="/etc/ger-inst"
-SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FBQUFBRVhRT1N5SXBOMkpaMGVoVVEvQURNLVVMVElNQVRFLU5FVy1GUkVFL21hc3Rlci9yZXF1ZXN0"
+SCPresq="aHR0cHM6Ly9naXRodWIuY29tL3ZpcDdyci9hZG0vdHJlZS9tYWluL3JlcXVlc3Q="
 SUB_DOM='base64 -d'
 [[ $(dpkg --get-selections|grep -w "gawk"|head -1) ]] || apt-get install gawk -y &>/dev/null
 [[ $(dpkg --get-selections|grep -w "mlocate"|head -1) ]] || apt-get install mlocate -y &>/dev/null
@@ -170,7 +170,7 @@ for host in ${_host[@]}; do
 done
 }
 
-# Instalação NEW-ULTIMATE
+# Instalaï¿½ï¿½o NEW-ULTIMATE
 fun_ip
 wget -O /usr/bin/trans http://git.io/trans &> /dev/null
 clear
